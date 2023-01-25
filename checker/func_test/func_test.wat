@@ -1,5 +1,5 @@
 (module
-  (memory $mem 1)
+  (memory $mem 1) ;;allocate memory 1 page(64kb)
   (global $WHITE i32 (i32.const 2))
   (global $BLACK i32 (i32.const 1))
   (global $CROWN i32 (i32.const 4))
